@@ -44,3 +44,14 @@ Név: Szabó Péter
 
 1. Melyik git parancsot használnád, hogy megtudd milyen állapotban van épp a repo?
 	 git status
+
+
+ebben a commitban módosult (node-express-app.js) kimeneti formátuma: 
+
+commit 1d1cf3480c68b564613809bec72ed33d9a98e2d0
+Author: András Maróy <andras@maroy.hu>
+Date:   Fri Nov 8 14:10:54 2019 +0100
+
+    Add basic node webapp and instructions to run it
+
+
