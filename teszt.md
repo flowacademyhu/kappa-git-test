@@ -25,5 +25,10 @@ git log- grep el lehet keresni
 1. Melyik git parancsot használnád, hogy megtudd milyen állapotban van épp a repo?
 git status
 
+3.
+Author: András Maróy <andras@maroy.hu>
+Date:   Fri Nov 8 14:10:54 2019 +0100
+
+    Add basic node webapp and instructions to run it
 
 
