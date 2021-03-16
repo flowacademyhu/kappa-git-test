@@ -20,7 +20,7 @@ az origin/feature a githubon lévő repóra utal origin nélkül a lokális rep�
 feloldjuk a conflictokat
 
 1. Mi az a `HEAD` és mi a jelentősége?
-azt jelöli melyik branch van legelöl
+A HEAD az aktuális branch utolsó commitját jelöli, ami óta az adott branchen még nem keletkezett újabb commit.
 
 1. Mi a célja a branch-elésnek?
 hogy main-be csak olyan változás kerüljön ami bugmentes
