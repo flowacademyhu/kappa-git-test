@@ -57,3 +57,18 @@ git log paranccsal látjuk a repoban történt változásokat. Git diffet tudunk
 git status parancsot. Ezzel meg tudjuk vizsgálni épp melyik branchen vagyunk , és a fájljainkban történt e változás, valamint hogy azok a working dir. staged, lokál repoban vannak-e.
 
 
+commit db6d33bc2fb48a8a313effec9d73f5bccd29abc6
+Author: Mark Zuckerberg <zuck@facebook.com>
+Date:   Fri Nov 8 13:08:59 2019 +0100
+
+    Change the status endpoint to /health
+    
+    To follow industry standards, the endpoint responsible for the status of
+    the service should live under the /health endpoint and return a bool
+    value denoted by the `health` key.
+
+commit 1d1cf3480c68b564613809bec72ed33d9a98e2d0
+Author: András Maróy <andras@maroy.hu>
+Date:   Fri Nov 8 14:10:54 2019 +0100
+
+    Add basic node webapp and instructions to run it
