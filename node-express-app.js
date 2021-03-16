@@ -30,8 +30,20 @@ var port = process.env.PORT || 8080;    // set our port
 
 var router = express.Router();        // get an instance of the express Router
 
+<<<<<<< HEAD
 router.get('/health', function(req, res) {
   res.json({ health: true });
+=======
+var up = true;
+var db = true;
+
+router.get('/health', function(req, res) {
+  res.json({ up: up, db: db, health: up && db });
+});
+
+router.get('/hello', function(req, res) {
+  res.json({ answer: 42 });
+>>>>>>> 99c1ad7014cf2e72ce5479b9f62863cf1773c5d7
 });
 
 app.use('/', router);
