@@ -35,3 +35,43 @@ greppeléssel lehet benne keresni
 1. Melyik git parancsot használnád, hogy megtudd milyen állapotban van épp a repo?
 git status
 
+commit 99c1ad7014cf2e72ce5479b9f62863cf1773c5d7 (origin/upstream)
+Author: András Maróy <andras@maroy.hu>
+Date:   Fri Nov 8 13:17:27 2019 +0100
+
+    Improve the logic of the health endpoint
+    
+    Healthchecks should be an aggregate of all values affecting the health
+    of the service.
+
+commit 0dd6e49daff0bb9ee87ad85f8aa411351843831a
+Author: András Maróy <andras@maroy.hu>
+Date:   Fri Nov 8 13:14:35 2019 +0100
+
+    Add /hello endpoint and bump version to 1.1.0
+
+commit b0825c838041ef1f0d3b1c4b1b8d4fc4d435e6ac
+Author: Mark Zuckerberg <zuck@facebook.com>
+Date:   Fri Nov 8 13:08:59 2019 +0100
+
+    Change the status endpoint to /health
+    
+    To follow industry standards, the endpoint responsible for the status of
+    the service should live under the /health endpoint and return a bool
+    value denoted by the `health` key.
+
+commit db6d33bc2fb48a8a313effec9d73f5bccd29abc6
+Author: Mark Zuckerberg <zuck@facebook.com>
+Date:   Fri Nov 8 13:08:59 2019 +0100
+
+    Change the status endpoint to /health
+    
+    To follow industry standards, the endpoint responsible for the status of
+    the service should live under the /health endpoint and return a bool
+    value denoted by the `health` key.
+
+commit 1d1cf3480c68b564613809bec72ed33d9a98e2d0
+Author: András Maróy <andras@maroy.hu>
+Date:   Fri Nov 8 14:10:54 2019 +0100
+
+    Add basic node webapp and instructions to run it
